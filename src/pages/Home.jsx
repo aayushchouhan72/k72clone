@@ -1,0 +1,20 @@
+import React from "react";
+import Video from "../components/home/Video";
+import HomeHeroText from "../components/home/HomeHeroText";
+import HomeHeroBottomText from "../components/home/HomeHeroBottomText";
+
+const Home = () => {
+  return (
+    <div className="h-full w-full">
+      <div className="h-screen w-screen fixed ">
+        <Video />
+      </div>
+      <div className="h-screen w-screen relative">
+        <HomeHeroText />
+        <HomeHeroBottomText />
+      </div>
+    </div>
+  );
+};
+
+export default Home;
