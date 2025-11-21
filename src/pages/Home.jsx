@@ -12,6 +12,10 @@ const Home = () => {
       <div className="h-screen w-screen relative flex items-center justify-center">
         <div className="text-center">
           <HomeHeroText />
+        </div>
+      </div>
+      <div className="fixed bottom-4 left-0 w-screen flex items-center justify-center px-8 z-20">
+        <div className="text-center">
           <HomeHeroBottomText />
         </div>
       </div>
