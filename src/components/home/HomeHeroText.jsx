@@ -9,7 +9,7 @@ const HomeHeroText = () => {
       </div>
       <div className=" flex items-center justify-center text-[9vw] uppercase leading-[8.5vw]">
         all
-        <div className="h-[7vw] w-[16vw] rounded-full mt-4 overflow-hidden">
+        <div className="w-[16vw] h-[7vw] rounded-l-full rounded-r-full overflow-hidden relative z-10">
           <Video />
         </div>
         things

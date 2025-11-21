@@ -5,13 +5,15 @@ import HomeHeroBottomText from "../components/home/HomeHeroBottomText";
 
 const Home = () => {
   return (
-    <div className="h-full w-full">
-      <div className="h-screen w-screen fixed ">
+    <div className="h-full w-full bg-black text-white">
+      <div className="h-screen w-screen fixed bg-black z-0">
         <Video />
       </div>
-      <div className="h-screen w-screen relative">
-        <HomeHeroText />
-        <HomeHeroBottomText />
+      <div className="h-screen w-screen relative flex items-center justify-center">
+        <div className="text-center">
+          <HomeHeroText />
+          <HomeHeroBottomText />
+        </div>
       </div>
     </div>
   );
