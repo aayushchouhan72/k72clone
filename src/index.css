@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+/* 
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+}
+
+@layer components {
+}
+
+@layer utilities {
+} */
+
+@font-face {
+  font-family: font1;
+  src: url(../src/assets/font/Lausanne-300.woff2);
+}
+@font-face {
+  font-family: font2;
+  src: url(../src/assets/font/Lausanne-300.woff2);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
