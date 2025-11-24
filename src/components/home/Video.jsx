@@ -1,5 +1,5 @@
 import React from "react";
-import homeBg from "../../assets/home-bg.mp4";
+import homeBg from "../../assets/videos/home-bg.mp4";
 
 const Video = () => {
   return (
