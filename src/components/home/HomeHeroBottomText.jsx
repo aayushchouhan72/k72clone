@@ -12,7 +12,7 @@ export default function HomeHeroBottomText() {
       </Link>
       <Link
         to="/agence"
-        className="hover:bg-amber-200 text-[7vw] md:text-[3vw] border-3 border-white rounded-full px-10 py-1 pt-1 uppercase "
+        className="hover:text-amber-200 text-[7vw] md:text-[3vw] border-3 border-white rounded-full px-10 py-1 pt-1 uppercase "
       >
         Agence
       </Link>
